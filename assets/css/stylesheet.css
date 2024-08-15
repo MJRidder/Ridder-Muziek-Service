@@ -1,7 +1,12 @@
 /* Google fonts import [Tajawal & Lata] */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
-
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* General formatting */
 header {
@@ -16,12 +21,24 @@ footer {
     background-color: lightgreen;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles (STILL TO BE ADDED] */
+}
 
+main {
+    background-color: lightblue;
+    /* make sure that the main element takes most of the space */
+    flex: 1 0 auto;
+}
 
 /* Navigation bar */
-#menu {
+nav {
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Conducting page */
