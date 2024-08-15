@@ -5,15 +5,15 @@
 
 /* General formatting */
 header {
-    color: lightcoral;
+    background-color: lightcoral;
 }
 
 main {
-    color: lightblue;
+    background-color: lightblue;
 }
 
 footer {
-    color: lightgreen;
+    background-color: lightgreen;
 }
 
 
