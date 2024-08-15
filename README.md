@@ -1,5 +1,5 @@
-# Bert-Ridder-muziek-services
-This is a website created for Bert Ridder Music Services, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
+# Bert-Ridder-muziek-service
+This is a website created for Bert Ridder Music Service, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
 
 PRE-README Intro
 
@@ -26,7 +26,7 @@ Learning Outcomes
 Below the offical Readme (remove this and the above when ready to submit)
 ============================
 
-### Ridder Muziek Services
+### Ridder Muziek Service
 
 Intro about the larger meaing/goal of the website
 
