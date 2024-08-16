@@ -67,6 +67,11 @@ h1 {
     margin-bottom: 1em;
 }
 
+/* unable to make this format function within the #menu ID $$ needs to be reviewed */
+ul {
+    list-style-type: none;
+  }
+
 .active {
     color: #0000ff;
 }
@@ -76,7 +81,7 @@ nav {
     width: 100%;
     top: 100%;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
     position: absolute;
     background: #ffffff;
     box-shadow: 0 2px 2px #282828;
