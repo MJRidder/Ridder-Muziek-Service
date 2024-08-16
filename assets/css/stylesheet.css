@@ -25,20 +25,34 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* generic project styles (STILL TO BE ADDED] */
+    color: #3a3a3a;
+    font-family: 'Tajawal', sans-serif;
 }
 
 main {
     background-color: lightblue;
-    /* make sure that the main element takes most of the space */
+    /* making sure that the main element takes most of the space */
     flex: 1 0 auto;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
 }
 
 /* Navigation bar */
 nav {
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 0 2rem;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0 2px 2p #3a3a3a;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+}
+
+#nav-mobile-toggle:checked~nav {
+    display: block;
 }
 
 /* Conducting page */
