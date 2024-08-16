@@ -135,6 +135,28 @@ nav {
     display: block;
 }
 
+#conducting-snippit {
+    margin-top: 10px;
+}
+
+#conducting-short {
+    width: 90%;
+    padding: 10px 5px;
+    font-weight: 200;
+    column-gap: 10px;
+}
+
+#teaching-snippit {
+    margin-top: 10px;
+}
+
+#teaching-short {
+    width: 90%;
+    padding: 10px 5px;
+    font-weight: 200;
+    column-gap: 10px;
+}
+
 /* Conducting page */
 
 /* Teaching page */
@@ -157,5 +179,15 @@ footer {
 
     #cover-text:hover {
         background: transparent;
+    }
+
+    #conducting-snippit {
+        display: flex;
+        margin-left: 40%;
+    }
+    
+    #teaching-snippit {
+        display: flex;
+        margin-right: 40%;
     }
 }
