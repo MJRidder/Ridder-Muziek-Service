@@ -103,10 +103,19 @@ nav {
 /* Home page */
 #hero-choice {
     display: flex;
+    width: 100%;
     column-count: 2;
-    column-gap: 0;
-    width: 20%;
-    position: relative;
+    column-gap: 2px;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#hero-1 {
+    width: 90%;
+    margin-left: 10px;
+}
+#hero-2 {
+    width: 90%;
 }
 
 /* Conducting page */
@@ -119,4 +128,5 @@ nav {
 /* Footer */
 footer {
     text-align: center;
+    width: 100%;
 }
