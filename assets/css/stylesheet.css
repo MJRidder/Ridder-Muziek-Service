@@ -59,9 +59,9 @@ nav {
     left: 0;
     padding: 0 2rem;
     position: absolute;
-    background: #ffffff;
+    background: #f80707;
     box-shadow: 0 2px 2p #282828;
-    display: flex;
+    display: none;
 }
 
 #menu {
