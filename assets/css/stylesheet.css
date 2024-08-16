@@ -10,7 +10,13 @@
 
 /* General formatting */
 header {
-    background-color: lightcoral;
+    background-color: #146525;
+    color: #ffffff;
+    padding: 0 1rem;
+    width: 100%;
+    position: fixed;
+    z-index: 99; 
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 main {
