@@ -17,14 +17,19 @@ header {
     position: fixed;
     z-index: 99; 
     box-shadow: 0 2px 2px #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a { 
     text-decoration: none;
+    color: inherit;
 }
 
 main {
     background-color: lightblue;
+    margin-top: 47px;
 }
 
 footer {
@@ -52,6 +57,20 @@ h1 {
     font-size: 150%; /* to fit the mobile screen $$ NEEDS UPDATING */
 }
 
+
+#menu {
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    color: #0000ff;
+}
+
 /* Navigation bar */
 nav {
     width: 100%;
@@ -59,27 +78,23 @@ nav {
     left: 0;
     padding: 0 2rem;
     position: absolute;
-    background: #f80707;
-    box-shadow: 0 2px 2p #282828;
+    background: #ffffff;
+    box-shadow: 0 2px 2px #282828;
     display: none;
-}
-
-#menu {
-    /* temp color, needs to be reviewed $$ NEEDS UPDATING */ 
-    color: rgb(65, 65, 65);
-    letter-spacing: 2px;
-    list-style-type: none;
-    margin-bottom: 1em;
-    font-size: 110%;
-}
-
-.active {
-    border-bottom: 1px solid #282828;
 }
 
 #nav-mobile-toggle:checked~nav {
     display: block;
 }
+
+#nav-mobile-toggle {
+    display: none;
+}
+
+.nav-mobile-toggle-label {
+    font-size: 2rem;
+}
+
 
 /* Conducting page */
 
