@@ -10,13 +10,17 @@
 
 /* General formatting */
 header {
-    background-color: #146525;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #282828;
     padding: 0 1rem;
     width: 100%;
     position: fixed;
     z-index: 99; 
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #282828;
+}
+
+header a { 
+    text-decoration: none;
 }
 
 main {
@@ -31,7 +35,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color: #282828;
     font-family: 'Tajawal', sans-serif;
 }
 
@@ -43,6 +47,9 @@ main {
 
 h1 {
     font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    color: #282828;
+    font-size: 150%; /* to fit the mobile screen $$ NEEDS UPDATING */
 }
 
 /* Navigation bar */
@@ -53,8 +60,21 @@ nav {
     padding: 0 2rem;
     position: absolute;
     background: #ffffff;
-    box-shadow: 0 2px 2p #3a3a3a;
+    box-shadow: 0 2px 2p #282828;
     display: flex;
+}
+
+#menu {
+    /* temp color, needs to be reviewed $$ NEEDS UPDATING */ 
+    color: rgb(65, 65, 65);
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin-bottom: 1em;
+    font-size: 110%;
+}
+
+.active {
+    border-bottom: 1px solid #282828;
 }
 
 #nav-mobile-toggle:checked~nav {
