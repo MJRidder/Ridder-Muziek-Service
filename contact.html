@@ -38,7 +38,7 @@
     <!--Main content-->
     <main>
         <section id="contact">
-            <form method="POST" action="thankyou.html" id="contact-form">
+            <form method="POST" action="thankyou.html" id="contact-form"> <!-- for some reasong this does not link to the thank you page $$ to be reviewed -->
                 <h2>Get in Touch</h2>
 
                 <label for="first-name">First name</label>
@@ -74,7 +74,7 @@
                 <div>
                 <label for="free-text">Please add your request below</label>
                 <br>
-                <input type="text" id="open-text" class="text-input" placeholder="Please provide some context on your request." name="request" required>
+                <textarea name="free-text" id="free-text" rows="4" cols="30" placeholder="Please provide context on your request." required></textarea>
                 </div>
                 <button type="submit" class="get-in-touch-button">Send request</button>
             </form>

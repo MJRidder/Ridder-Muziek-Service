@@ -30,6 +30,8 @@ header a {
 main {
     background-color: lightblue;
     margin-top: 47px;
+        /* making sure that the main element takes most of the space */
+        flex: 1 0 auto;
 }
 
 footer {
@@ -42,12 +44,6 @@ body {
     flex-direction: column;
     color: #282828;
     font-family: 'Tajawal', sans-serif;
-}
-
-main {
-    background-color: lightblue;
-    /* making sure that the main element takes most of the space */
-    flex: 1 0 auto;
 }
 
 h1 {
@@ -67,15 +63,6 @@ h1 {
     margin-bottom: 1em;
 }
 
-/* unable to make this format function within the #menu ID $$ needs to be reviewed */
-ul {
-    list-style-type: none;
-  }
-
-.active {
-    color: #0000ff;
-}
-
 /* Navigation bar */
 nav {
     width: 100%;
@@ -88,6 +75,15 @@ nav {
     display: none;
 }
 
+/* unable to make this format function within the #menu ID $$ needs to be reviewed */
+ul {
+    list-style-type: none;
+  }
+
+.active {
+    color: #0000ff;
+}
+
 #nav-mobile-toggle:checked~nav {
     display: block;
 }
@@ -98,6 +94,23 @@ nav {
 
 .nav-mobile-toggle-label {
     font-size: 2rem;
+}
+
+.link-to-contact-form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: #282828;
+    margin: 20px 25% 20px 25%;
+    box-shadow: 0 2px 2px #282828;
+    border-radius: 12px;
+    padding-top: 10px;
+}
+
+.go-to-contact-button {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Home page */
@@ -160,19 +173,57 @@ nav {
 /* Conducting page */
 
 /* Teaching page */
+section div > .teaching-chapter {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#teaching-info > div {
+    padding-top: 10px;
+}
 
 /* Contact page */
+.get-in-touch-button {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    box-shadow: 0 2px 2px #282828;
+    border-radius: 12px;
+    padding: 2px 5px;
+    margin-top: 10px;
+}
 
+#contact {
+    background-color: #ffffff; /* just to showcase the section $$ to be removed */
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#open-text {
+    min-height: 100px;
+    width: 80%;
+}
 
 /* Footer */
 footer {
     text-align: center;
     width: 100%;
+    padding-top: 5px;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* hero images */
+    #hero-choice {
+        max-width: 50%;
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
     #cover-text {
         background-color: rgba(60, 60, 60, 0.6);
     }
@@ -183,11 +234,15 @@ footer {
 
     #conducting-snippit {
         display: flex;
-        margin-left: 40%;
+        margin-top: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
     }
     
     #teaching-snippit {
         display: flex;
-        margin-right: 40%;
+        margin-top: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
