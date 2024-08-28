@@ -35,7 +35,43 @@
         </nav>       
     </header>
     <!--Main content-->
-    <main>Main content for contact</main>
+    <main>
+        <section id="contact">
+            <form method="POST" action="thankyou.html" id="contact-form">
+                <h2>Get in Touch</h2>
+
+                <label for="first-name"></label>
+                <input type="text" id="first-name" class="text-input" required>
+
+                <label for="last-name"></label>
+                <input type="text" id="last-name" class="text-input" required>
+
+                <label for="email"></label>
+                <input type="text" id="email" class="text-input" required>
+
+                <label for="phone"></label>
+                <input type="text" id="phone" class="text-input">
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="trombone-lesson"></label>
+                        <input type="radio" id="trombone-lesson" value="Trombone lessons" class="service-type">
+                    </div>
+                    <div>
+                        <label for="stand-in-conductor"></label>
+                        <input type="radio" id="stand-in-conductor" value="Stand-in conductor" class="service-type">
+                    </div>
+                    <div>
+                        <label for="general"></label>
+                        <input type="radio" id="general" value="General request" class="service-type">
+                    </div>
+                </div>
+
+                <label for=""></label>
+                <input type="text">
+            </form>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer>
