@@ -40,35 +40,42 @@
             <form method="POST" action="thankyou.html" id="contact-form">
                 <h2>Get in Touch</h2>
 
-                <label for="first-name"></label>
+                <label for="first-name">First name</label>
                 <input type="text" id="first-name" class="text-input" required>
-
-                <label for="last-name"></label>
+                <br>
+                <label for="last-name">Last name</label>
                 <input type="text" id="last-name" class="text-input" required>
-
-                <label for="email"></label>
-                <input type="text" id="email" class="text-input" required>
-
-                <label for="phone"></label>
+                <br>
+                <label for="email-address">Email address</label>
+                <input type="text" id="email-address" class="text-input" required>
+                <br>
+                <label for="phone">Phone number</label>
                 <input type="text" id="phone" class="text-input">
-
+                <br>
+                <br>
+                <p>What is your request about?</p>
+                <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="trombone-lesson"></label>
-                        <input type="radio" id="trombone-lesson" value="Trombone lessons" class="service-type">
+                        <input type="radio" id="trombone-lessons" value="trombone-lessons" class="service-type" required>
+                        <label for="trombone-lessons">Trombone lessons</label>
                     </div>
                     <div>
-                        <label for="stand-in-conductor"></label>
-                        <input type="radio" id="stand-in-conductor" value="Stand-in conductor" class="service-type">
+                        <input type="radio" id="stand-in-conductor" value="stand-in-conductor" class="service-type" required>
+                        <label for="stand-in-conductor">Stand-in conductor</label>
                     </div>
                     <div>
-                        <label for="general"></label>
-                        <input type="radio" id="general" value="General request" class="service-type">
+                        <input type="radio" id="general" value="general-contact" class="service-type" required>
+                        <label for="general">General contact</label>
                     </div>
                 </div>
-
-                <label for=""></label>
-                <input type="text">
+                <br>
+                <div>
+                <label for="free-text">Please add your request below</label>
+                <br>
+                <input type="text" id="open-text" class="text-input" placeholder="Please provide some context on your request." required>
+                </div>
+                <button type="submit" class="get-in-touch">Send request</button>
             </form>
         </section>
     </main>
