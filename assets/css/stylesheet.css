@@ -218,10 +218,10 @@ footer {
 @media screen and (min-width: 768px) {
     /* hero images */
     #hero-choice {
-        max-width: 50%;
+        max-width: 80%;
         display: flex;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     #cover-text {
@@ -235,14 +235,18 @@ footer {
     #conducting-snippit {
         display: flex;
         margin-top: 20px;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     #teaching-snippit {
         display: flex;
         margin-top: 20px;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
+
+.teaching-page {
+    margin: 0 10%;
+}
 }

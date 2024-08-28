@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" 
-    content="Ridder muziek service, music teacher, trombone teacher, tuba teacher, find your music teacher here. Stand-in conductor, region North-Holland">
-    <meta name="keywords" 
-    content="Ridder muziek service, Bert Ridder, music, music teacher, trombone teacher, tuba teacher, experienced teacher. Stand-in conductor, 
+    <meta name="description"
+        content="Ridder muziek service, music teacher, trombone teacher, tuba teacher, find your music teacher here. Stand-in conductor, region North-Holland">
+    <meta name="keywords" content="Ridder muziek service, Bert Ridder, music, music teacher, trombone teacher, tuba teacher, experienced teacher. Stand-in conductor, 
     region North-Holland, experienced conductor, last minute conductor, replacement conductor">
+    <!--Favicon image-->
+    <link rel="icon" type="image/jpeg" href="/assets/images/Favicon/favicon-option-2.jpg">
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/685977a0ed.js" crossorigin="anonymous"></script>
-    
+
     <title>Ridder Muziek Service</title>
 </head>
+
 <body>
     <!--Header-->
     <header>
@@ -33,12 +36,13 @@
                 <li><a href="contact.html" class="active">Get in Touch</a></li>
                 <li><a href="thankyou.html">Thank you page</a></li> <!-- This is a test - should be removed -->
             </ul>
-        </nav>       
+        </nav>
     </header>
     <!--Main content-->
     <main>
         <section id="contact">
-            <form method="POST" action="thankyou.html" id="contact-form"> <!-- for some reasong this does not link to the thank you page $$ to be reviewed -->
+            <form method="POST" action="thankyou.html" id="contact-form">
+                <!-- for some reasong this does not link to the thank you page $$ to be reviewed -->
                 <h2>Get in Touch</h2>
 
                 <label for="first-name">First name</label>
@@ -58,23 +62,27 @@
                 <br>
                 <div class="radio-buttons">
                     <div>
-                        <input type="radio" id="trombone-lessons" value="trombone-lessons" class="service-type" name="service-type" required>
+                        <input type="radio" id="trombone-lessons" value="trombone-lessons" class="service-type"
+                            name="service-type" required>
                         <label for="trombone-lessons">Trombone lessons</label>
                     </div>
                     <div>
-                        <input type="radio" id="stand-in-conductor" value="stand-in-conductor" class="service-type" name="service-type" required>
+                        <input type="radio" id="stand-in-conductor" value="stand-in-conductor" class="service-type"
+                            name="service-type" required>
                         <label for="stand-in-conductor">Stand-in conductor</label>
                     </div>
                     <div>
-                        <input type="radio" id="general" value="general-contact" class="service-type" name="service-type" required>
+                        <input type="radio" id="general" value="general-contact" class="service-type"
+                            name="service-type" required>
                         <label for="general">General contact</label>
                     </div>
                 </div>
                 <br>
                 <div>
-                <label for="free-text">Please add your request below</label>
-                <br>
-                <textarea name="free-text" id="free-text" rows="4" cols="30" placeholder="Please provide context on your request." required></textarea>
+                    <label for="free-text">Please add your request below</label>
+                    <br>
+                    <textarea name="free-text" id="free-text" rows="4" cols="30"
+                        placeholder="Please provide context on your request." required></textarea>
                 </div>
                 <button type="submit" class="get-in-touch-button">Send request</button>
             </form>
@@ -86,4 +94,5 @@
         <p>@ Ridder Muziek Service</p>
     </footer>
 </body>
+
 </html>

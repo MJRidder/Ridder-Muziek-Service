@@ -75,4 +75,8 @@ This section should describe the process you went through to deploy the project 
 # Tools
 # Other?
 
+Sources
 
+Tool to convert image webp to jpg (https://ezgif.com/webp-to-jpg)
+Tool to convert image avif to jpg (https://cloudconvert.com/avif-to-jpg)
+HTML & CSS funcionality info (https://www.w3schools.com/)
