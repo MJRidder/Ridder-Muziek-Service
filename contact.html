@@ -31,6 +31,7 @@
                 <li><a href="conducting.html">Conducting</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
                 <li><a href="contact.html" class="active">Get in Touch</a></li>
+                <li><a href="thankyou.html">Thank you page</a></li> <!-- This is a test - should be removed -->
             </ul>
         </nav>       
     </header>
@@ -41,31 +42,31 @@
                 <h2>Get in Touch</h2>
 
                 <label for="first-name">First name</label>
-                <input type="text" id="first-name" class="text-input" required>
+                <input type="text" id="first-name" class="text-input" name="first-name" required>
                 <br>
                 <label for="last-name">Last name</label>
-                <input type="text" id="last-name" class="text-input" required>
+                <input type="text" id="last-name" class="text-input" name="last-name" required>
                 <br>
                 <label for="email-address">Email address</label>
-                <input type="text" id="email-address" class="text-input" required>
+                <input type="text" id="email-address" class="text-input" name="email-address" required>
                 <br>
                 <label for="phone">Phone number</label>
-                <input type="text" id="phone" class="text-input">
+                <input type="text" id="phone" class="text-input" name="phone-number">
                 <br>
                 <br>
                 <p>What is your request about?</p>
                 <br>
                 <div class="radio-buttons">
                     <div>
-                        <input type="radio" id="trombone-lessons" value="trombone-lessons" class="service-type" required>
+                        <input type="radio" id="trombone-lessons" value="trombone-lessons" class="service-type" name="service-type" required>
                         <label for="trombone-lessons">Trombone lessons</label>
                     </div>
                     <div>
-                        <input type="radio" id="stand-in-conductor" value="stand-in-conductor" class="service-type" required>
+                        <input type="radio" id="stand-in-conductor" value="stand-in-conductor" class="service-type" name="service-type" required>
                         <label for="stand-in-conductor">Stand-in conductor</label>
                     </div>
                     <div>
-                        <input type="radio" id="general" value="general-contact" class="service-type" required>
+                        <input type="radio" id="general" value="general-contact" class="service-type" name="service-type" required>
                         <label for="general">General contact</label>
                     </div>
                 </div>
@@ -73,9 +74,9 @@
                 <div>
                 <label for="free-text">Please add your request below</label>
                 <br>
-                <input type="text" id="open-text" class="text-input" placeholder="Please provide some context on your request." required>
+                <input type="text" id="open-text" class="text-input" placeholder="Please provide some context on your request." name="request" required>
                 </div>
-                <button type="submit" class="get-in-touch">Send request</button>
+                <button type="submit" class="get-in-touch-button">Send request</button>
             </form>
         </section>
     </main>
