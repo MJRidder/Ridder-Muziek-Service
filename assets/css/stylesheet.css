@@ -51,7 +51,7 @@ h1 {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     color: #282828;
-    font-size: 150%; /* to fit the mobile screen $$ NEEDS UPDATING */
+    font-size: 100%; /* to fit the mobile screen $$ NEEDS UPDATING */
 }
 
 
@@ -77,7 +77,7 @@ nav {
 }
 
 /* unable to make this format function within the #menu ID $$ needs to be reviewed */
-ul {
+nav > ul {
     list-style-type: none;
   }
 
@@ -174,9 +174,10 @@ ul {
 
 #conducting-short {
     width: 100%;
-    font-weight: 200;
-    column-gap: 10px;
+    column-gap: 15px;
     padding-left: 5%;
+    padding-top: 10px;
+    text-align: left;
 }
 
 #teaching-snippit {
@@ -186,9 +187,9 @@ ul {
 #teaching-short {
     width: 100%;
     margin-top: 20px;
-    font-weight: 200;
     column-gap: 15px;
     padding-right: 5%;
+    text-align: left;
 }
 
 .homepage-snippit {
@@ -196,6 +197,36 @@ ul {
 }
 
 /* Conducting page */
+#conducting-hero {
+    position: relative;
+    max-height: 250px;
+    width: 100%;
+    background: url(/assets/images/Bert-Ridder-Conducting-cropped-conducting-page.png ) center no-repeat;
+}
+
+.conducting-chapter {
+    padding-left: 20px;
+}
+
+section div > .conducting-chapter {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#conducting-info > div {
+    padding-top: 10px;
+}
+
+.orchestra-logo {
+    max-width: 100px;
+    max-height: 100px;
+    column-gap: 15px;
+    font-weight: 150;
+}
+
+#orchestra-list {
+    padding-left: 20px;
+}
 
 /* Teaching page */
 #teaching-hero {
@@ -204,7 +235,6 @@ ul {
     width: 100%;
     background: url(/assets/images/Bert-Ridder-study-cropped-teaching-page.png) center no-repeat;
 }
-
 
 section div > .teaching-chapter {
     margin-top: 5px;
@@ -244,7 +274,7 @@ section div > .teaching-chapter {
 footer {
     text-align: center;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 /* Media query: tablets and larger (768px and up) */
