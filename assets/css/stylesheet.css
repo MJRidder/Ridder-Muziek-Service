@@ -44,6 +44,7 @@ body {
     flex-direction: column;
     color: #282828;
     font-family: 'Tajawal', sans-serif;
+
 }
 
 h1 {
@@ -113,6 +114,18 @@ ul {
     color: #ffffff;
 }
 
+.header-cover-text { /* positioning of the text over the hero picture remains a challeng $$ needs to be reviewed */
+    display: flex;
+    position:absolute;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    justify-self: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 32px;
+}
 /* Home page */
 #hero-choice {
     display: flex;
@@ -153,10 +166,10 @@ ul {
 }
 
 #conducting-short {
-    width: 90%;
-    padding: 10px 5px;
+    width: 100%;
     font-weight: 200;
     column-gap: 10px;
+    padding-left: 5%;
 }
 
 #teaching-snippit {
@@ -164,15 +177,28 @@ ul {
 }
 
 #teaching-short {
-    width: 90%;
-    padding: 10px 5px;
+    width: 100%;
+    margin-top: 20px;
     font-weight: 200;
-    column-gap: 10px;
+    column-gap: 15px;
+    padding-right: 5%;
+}
+
+.homepage-snippit {
+    padding: 0 5px;
 }
 
 /* Conducting page */
 
 /* Teaching page */
+#teaching-hero {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background: url(/assets/images/Bert-Ridder-study-cropped-teaching-page.png) center no-repeat;
+}
+
+
 section div > .teaching-chapter {
     margin-top: 5px;
     margin-bottom: 5px;
