@@ -15,27 +15,28 @@ header {
     padding: 0 1rem;
     width: 100%;
     position: fixed;
-    z-index: 99; 
+    z-index: 99;
     box-shadow: 0 2px 2px #282828;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-header a { 
+header a {
     text-decoration: none;
     color: inherit;
 }
 
 main {
-    background-color: lightblue;
+    background-color: rgb(239, 218, 195);
     margin-top: 47px;
-        /* making sure that the main element takes most of the space */
-        flex: 1 0 auto;
+    /* making sure that the main element takes most of the space */
+    flex: 1 0 auto;
 }
 
 footer {
-    background-color: lightgreen;
+    background-color: rgb(53, 30, 41);
+    color: #fafafa;
 }
 
 body {
@@ -51,7 +52,8 @@ h1 {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     color: #282828;
-    font-size: 100%; /* to fit the mobile screen $$ NEEDS UPDATING */
+    font-size: 100%;
+    /* to fit the mobile screen $$ NEEDS UPDATING */
 }
 
 
@@ -60,7 +62,7 @@ h1 {
     font-size: 110%;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -76,10 +78,9 @@ nav {
     display: none;
 }
 
-/* unable to make this format function within the #menu ID $$ needs to be reviewed */
-nav > ul {
+nav>ul {
     list-style-type: none;
-  }
+}
 
 .active {
     color: #0000ff;
@@ -114,9 +115,10 @@ nav > ul {
     color: #ffffff;
 }
 
-.header-cover-text { /* positioning of the text over the hero picture remains a challenge $$ needs to be reviewed */
+.header-cover-text {
+    /* positioning of the text over the hero picture remains a challenge $$ needs to be reviewed */
     display: flex;
-    position:relative;
+    position: relative;
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
@@ -126,6 +128,7 @@ nav > ul {
     justify-content: center;
     align-items: center;
 }
+
 /* Home page */
 #hero-choice {
     display: flex;
@@ -143,14 +146,17 @@ nav > ul {
     width: 90%;
     background: url("../images/Bert-Ridder-study-cropped.png") no-repeat center center/cover;
     position: relative;
-    
+    border-radius: 12px;
+
 }
+
 #hero-2 {
     display: flex;
     height: 400px;
     width: 90%;
     background: url("../images/Bert-Ridder-conducting-1-cropped.png") no-repeat center center/cover;
     position: relative;
+    border-radius: 12px;
 }
 
 #cover-text {
@@ -166,6 +172,7 @@ nav > ul {
     text-align: center;
     justify-content: center;
     align-items: center;
+    border-radius: 12px;
 }
 
 #conducting-snippit {
@@ -206,14 +213,15 @@ nav > ul {
 
 .conducting-chapter {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
-section div > .conducting-chapter {
+section div>.conducting-chapter {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-#conducting-info > div {
+#conducting-info>div {
     padding-top: 10px;
 }
 
@@ -221,7 +229,7 @@ section div > .conducting-chapter {
     max-width: 100px;
     max-height: 100px;
     column-gap: 15px;
-    font-weight: 150;
+    font-weight: 100;
 }
 
 #orchestra-list {
@@ -236,12 +244,12 @@ section div > .conducting-chapter {
     background: url(/assets/images/Bert-Ridder-study-cropped-teaching-page.png) center no-repeat;
 }
 
-section div > .teaching-chapter {
+section div>.teaching-chapter {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-#teaching-info > div {
+#teaching-info>div {
     padding-top: 10px;
 }
 
@@ -257,7 +265,6 @@ section div > .teaching-chapter {
 }
 
 #contact {
-    background-color: #ffffff; /* just to showcase the section $$ to be removed */
     position: absolute;
     width: 100%;
     padding-top: 20px;
@@ -279,6 +286,15 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+          
+    .header-cover-text {
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+
+    /* home page */
+
     /* hero images */
     #hero-choice {
         max-width: 80%;
@@ -295,21 +311,32 @@ footer {
         background: transparent;
     }
 
-    #conducting-snippit {
+    /* snippit texts */
+    #conducting-snippit, #teaching-snippit {
         display: flex;
+        justify-content: center;
         margin-top: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    
-    #teaching-snippit {
-        display: flex;
-        margin-top: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
-.teaching-page {
-    margin: 0 10%;
+    /* Conducting page */
+    .conduction-page, .conducting-chapter, #orchestra-list {
+        margin-left: 15%;
+        margin-right: 15%; 
+    }
+
+    /* Teaching page */
+    .teaching-page {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    /* Contact page */
+    /* none specific */
 }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
 }
