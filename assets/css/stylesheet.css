@@ -30,6 +30,8 @@ header a {
 main {
     background-color: rgb(239, 218, 195);
     margin-top: 47px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     /* making sure that the main element takes most of the space */
     flex: 1 0 auto;
 }
@@ -286,6 +288,11 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    main {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
     
     nav {
         display: block;
