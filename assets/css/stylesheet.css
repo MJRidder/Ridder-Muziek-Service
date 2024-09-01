@@ -213,12 +213,12 @@ nav>ul {
     background: url(/assets/images/Bert-Ridder-Conducting-cropped-conducting-page.png ) center no-repeat;
 }
 
-.conducting-chapter {
+.general-page-layout {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-section div>.conducting-chapter {
+section div>.general-page-layout {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -244,15 +244,6 @@ section div>.conducting-chapter {
     max-height: 250px;
     width: 100%;
     background: url(/assets/images/Bert-Ridder-study-cropped-teaching-page.png) center no-repeat;
-}
-
-section div>.teaching-chapter {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#teaching-info>div {
-    padding-top: 10px;
 }
 
 /* Contact page */
@@ -348,13 +339,13 @@ footer {
     }
 
     /* Conducting page */
-    .conduction-page, .conducting-chapter, #orchestra-list {
+    #orchestra-list {
         margin-left: 15%;
         margin-right: 15%; 
     }
 
     /* Teaching page */
-    .teaching-page {
+    .general-page-layout {
         padding-left: 15%;
         padding-right: 15%;
     }

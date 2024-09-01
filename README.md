@@ -1,6 +1,11 @@
 # Bert-Ridder-muziek-service
 This is a website created for Bert Ridder Music Service, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
 
+# Open questions/to do's:
+- Fix nav. bar for tablet and desktop, take out hamburger and get it on one line
+- Fix hero images and overlaying text - make them compatible on multiple screen sizes
+
+
 PRE-README Intro
 
 External user’s goal:
