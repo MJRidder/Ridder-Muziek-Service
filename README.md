@@ -2,7 +2,8 @@
 This is a website created for Bert Ridder Music Service, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
 
 # Open questions/to do's:
-- Fix nav. bar for tablet and desktop, take out hamburger and get it on one line
+- Fix nav. bar for tablet and desktop, centralise on the line
+    + by accident had added a # in the HTML "id" attribute of the .nav bar. Which caused for issues when I tried to fix it in CSS
 - Fix hero images and overlaying text - make them compatible on multiple screen sizes
 
 

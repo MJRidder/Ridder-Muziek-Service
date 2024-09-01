@@ -246,6 +246,14 @@ section div>.general-page-layout {
     background: url(/assets/images/Bert-Ridder-study-cropped-teaching-page.png) center no-repeat;
 }
 
+/* Musician page */
+#musician-hero {
+    position: relative;
+    max-height: 250px;
+    width: 100%;
+    background: url(/assets/images/Ridder-muziek-service-logo.png) center no-repeat;
+}
+
 /* Contact page */
 .get-in-touch-button {
     display: flex;
@@ -279,11 +287,6 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
-    main {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
     
     nav {
         display: block;
