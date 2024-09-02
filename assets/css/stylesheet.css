@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+/* GENERAL MESSAGE: any comment including two dollar signs ($$) still needs to be reviewed/potentially adjusted */
+
 /* General formatting */
 header {
     background-color: #ffffff;
@@ -177,32 +179,11 @@ nav>ul {
     border-radius: 12px;
 }
 
-#conducting-snippit {
-    margin-top: 10px;
-}
-
-#conducting-short {
-    width: 100%;
-    column-gap: 15px;
-    padding-left: 5%;
-    padding-top: 10px;
-    text-align: left;
-}
-
-#teaching-snippit {
-    margin-top: 10px;
-}
-
-#teaching-short {
-    width: 100%;
-    margin-top: 20px;
-    column-gap: 15px;
-    padding-right: 5%;
-    text-align: left;
-}
-
+/* snippit texts */
 .homepage-snippit {
     padding: 0 5px;
+    margin-top: 20px;
+    text-align: left;
 }
 
 /* Conducting page */
@@ -256,16 +237,22 @@ section div>.general-page-layout {
 
 /* Contact page */
 
+#contact-background-image {
+    display: flex;
+    background: url("../images/Music-stock-background.jpg") no-repeat center center/cover;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: 75%;
+}
+
 #contact {
+    margin-top: 20px;
     position: absolute;
     width: 330px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px;
     border: 2px solid #3a3a3a;
-    background-color: #fafafa;
-    padding: 70px 10% 0 10%;
-    flex-grow: 1;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 20px 10% 0 10%;
 }
 
 #open-text {
@@ -281,6 +268,7 @@ section div>.general-page-layout {
     border-radius: 12px;
     padding: 2px 5px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
@@ -339,12 +327,10 @@ footer {
 
     /* snippit texts */
     #conducting-snippit,
-    #teaching-snippit {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        margin-left: 15%;
-        margin-right: 15%;
+    #teaching-snippit, #musician-snippit {
+        margin-top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     /* Conducting page */
@@ -380,11 +366,16 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #background-image {
+    #contact-background-image {
         display: flex;
-        background: url("../images/Ridder-muziek-service-logo.png") no-repeat center center/cover;
+        background: url("../images/Music-stock-background.jpg") no-repeat center center/cover;
         border-radius: 12px;
         background-size: cover;
         background-position: 75%;
+    }
+
+    #contact {
+        height: 100%;
+        align-items: center;
     }
 }
