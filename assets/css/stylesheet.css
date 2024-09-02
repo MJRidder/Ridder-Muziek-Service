@@ -255,6 +255,24 @@ section div>.general-page-layout {
 }
 
 /* Contact page */
+
+#contact {
+    position: absolute;
+    width: 330px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #fafafa;
+    padding: 70px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#open-text {
+    min-height: 100px;
+    width: 80%;
+}
+
 .get-in-touch-button {
     display: flex;
     position: relative;
@@ -263,19 +281,6 @@ section div>.general-page-layout {
     border-radius: 12px;
     padding: 2px 5px;
     margin-top: 10px;
-}
-
-#contact {
-    position: absolute;
-    width: 100%;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px;
-}
-
-#open-text {
-    min-height: 100px;
-    width: 80%;
 }
 
 /* Footer */
@@ -287,7 +292,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    
+
     nav {
         display: block;
         position: relative;
@@ -307,7 +312,7 @@ footer {
     .nav-mobile-toggle-label {
         display: none;
     }
-          
+
     .header-cover-text {
         margin-left: 15%;
         margin-right: 15%;
@@ -333,7 +338,8 @@ footer {
     }
 
     /* snippit texts */
-    #conducting-snippit, #teaching-snippit {
+    #conducting-snippit,
+    #teaching-snippit {
         display: flex;
         justify-content: center;
         margin-top: 20px;
@@ -344,7 +350,7 @@ footer {
     /* Conducting page */
     #orchestra-list {
         margin-left: 15%;
-        margin-right: 15%; 
+        margin-right: 15%;
     }
 
     /* Teaching page */
@@ -354,10 +360,31 @@ footer {
     }
 
     /* Contact page */
-    /* none specific */
+    #contact {
+        position: absolute;
+        width: 90%;
+        max-width: 330px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        justify-content: center;
+        border: 2px solid #3a3a3a;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 
+    #background-image {
+        display: flex;
+        background: url("../images/Ridder-muziek-service-logo.png") no-repeat center center/cover;
+        border-radius: 12px;
+        background-size: cover;
+        background-position: 75%;
+    }
 }
