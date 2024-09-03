@@ -315,12 +315,11 @@ nav>ul {
 .thank-you {
     margin-top: 20px;
     position: relative;
-    width: 330px;
-    border: 2px solid #3a3a3a;
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.9);
-    padding: 20px 10% 0 10%;
-    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
 }
 
 /* Footer - mobile */
@@ -416,7 +415,7 @@ footer {
     }
 
     /* Teaching page - tablet and up */
-    .general-page-layout {
+    .general-page-layout, .homepage-snippit {
         padding-left: 15%;
         padding-right: 15%;
     }

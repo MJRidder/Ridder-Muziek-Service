@@ -48,18 +48,75 @@ Learning Outcomes
 Below the offical Readme (remove this and the above when ready to submit)
 ============================
 
-### Ridder Muziek Service
+# Ridder Muziek Service
 
-Intro about the larger meaing/goal of the website
+Welcome to Ridder Muziek Service! This is the website for Bert Ridder, a conductor 'slash' music teacher 'slash' musician with over 40 years experience in each. Bert is retired officially but as every "old dog of the business" he does not know how to fully quit. Which is why he'd like to be available for incidental projects in conducing, teaching incidental music students or be part of a musical project himself as a musician. 
 
-- UX experience
-- User stories
-- Mobile users
-- Wireframes - where were they created and what was the though process (add screenshots under drop downs)
+The goal of this website is to briefly provide context but quickly guide the visitor to reaching out to Bert. Every aspect of the website is set up to guide the user to the contact page. 
+
+## UX experience
+I have tried to keep the user in mind when setting up the pages. Keeping information short and relevant and easily accessable from different platforms. Each page has a quick link (call to action) to "Get in touch" and discuss availability. The website has a simple/clear set up with the aim not to confuse the visitor.
+
+## User stories
+In the ideal state the user finds us via Google (or other) search, lands on the home page or even directly on the relevant conductor/teacher/conductor pages. The aim is for them to be able to get to the contact page/details within 1 or two clicks. 
+
+The home page provides sufficient but limited information. With two large buttons for the main uses of this website:
+1) Provide a stand-in conductor for an orchestra/ensemble in need.
+2) Provide a music teacher for a student in need.
+
+Users will also see a musician page. This is because Bert has requested to have the page added also for being a musician, however the main desire is to gain projects as a stand-in conductor or a music teacher. Visitors of the website will mostly from "the industry" however, which will make it relevant to know as well that Bert is also an active musician for hire as well. 
+
+Each page provides three elements to the visitor:
+1) How Bert works (how he conducts/teaches and would this fit their needs?)
+2) His experience (providing a strong base for the visitor to base their decision on)
+3) What his availability is and for what he is available for (Although many different orchestras/ensembles/students can be helped, it is important not to give false hope to the visitor in case Bert his experience does not match their needs)
+
+## Mobile users
+The website was created with "mobile first" mindset. Creating all pages from a 'Samsung Galaxy 8' or 'Samsung Galaxy S20 Ultra' basis, before reviewing the websites funcitionality for tables/desktops. With this in mind the formatting has been kept simple, easy to view but sufficient. 
+
+Reasoning for this is simple: Mobile usage in much higher then desktop usage. Avg. page visits per session is less relevant here as the the aim of the website is to get the visitor to a state of 'contact' as soon as possible. Whether if this is via the contact form, phone or email. The below "Get in Touch" button is clear and can be found at the top of every page.
+
+![Step 1 - visitor lands on homepage](./assets/images/Readme%20screenshots/Mobile-user-step-1-min.png "Step 1 - visitor lands on homepage")
+![Step 2 - has a direct link (single click) to contact details/page](./assets/images/Readme%20screenshots/Mobile-user-step-2-min.png "Step 2 - has a direct link (single click) to contact details/page")
+
+## Wireframes
+I used miro.com to create wireframes for this project. During my participation of the July Hackathon it was used by the group which helped me a lot making our project more visible.
+
+Please find my original wireframe below:<br>
+![Original wireframe](./assets/images/Readme%20screenshots/Wireframe%20-%20full%20page%20layout.png "Original wireframe")
+
+The original version did contain more (inline) pictures but I decided to step away from this in favor of the pages easy of use. 
+
+In a future state I will also consider a "media page" (seen in the screen shot as the red page) to include audio and video. But more on this later in the future feature section.
 
 ## Features
 
-Outline each feature usedd (e.g. NAV bar) and make sure to add screen shots where beneficial/relevant
+### NAV bar
+The navigation bar is adjustable for mobile vs. tables/desktop. Allowing for "hover" visuals and "active" on the larger screens and the "burger format" on Mobile.
+
+Mobile (see burger format)<br>
+![NAV bar mobile](./assets/images/Readme%20screenshots/NAV-bar-mobile.png "NAV bar mobile")
+
+Tablet (see active format (relevant for all platforms))<br>
+![NAV bar tablet](./assets/images/Readme%20screenshots/NAV-bar-tablet.png "NAV bar tablet")
+
+Desktop (see the 'hover' underline)<br>
+![NAV bar desktop](./assets/images/Readme%20screenshots/NAV-bar-desktop.png "NAV bar desktop")
+
+## Hero image/buttons index page
+The main objects that are visible on the homepage are the two buttons referencing the Teacher and Conductor focus of the website. Easy and quick access allowing for fast movement through the website (and a quick call to action)
+
+Homepage "two button" call to action<br>
+![Two button call to action](./assets/images/Readme%20screenshots/Mobile-user-step-1-min-cropped.png "Two button call to action")
+
+- "Get in Touch" button (on each page)
+- hero images containing quick page info
+- similar/easy page layout
+- Conducting page link to orchestras for reference
+- Footer links to socials
+- contact webform
+- easy of contact with phone and email
+- Thank you page (acknowledgement of form completion)
 
 e.g. Features of the LOVE RUNNING project
 - NAV bar
