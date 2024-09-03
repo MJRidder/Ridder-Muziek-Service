@@ -75,7 +75,7 @@ nav {
     width: 100%;
     top: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 2px;
     position: absolute;
     background: #ffffff;
     box-shadow: 0 2px 2px #282828;
@@ -185,6 +185,14 @@ nav>ul {
     text-align: left;
 }
 
+.general-page-layout {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.general-chapter {
+    padding-top: 15px;
+}
+
 /* Conducting page */
 #conducting-hero {
     position: relative;
@@ -194,23 +202,9 @@ nav>ul {
     background-size: cover;
 }
 
-.general-page-layout {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-section div>.general-page-layout {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#conducting-info>div {
-    padding-top: 10px;
-}
-
 .orchestra-logo {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
     column-gap: 15px;
     font-weight: 100;
 }
@@ -302,6 +296,11 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        padding-top: 1rem;
+    }
+
+    main {
+        padding-top: 1rem;
     }
 
     #menu {
@@ -321,6 +320,11 @@ footer {
         padding: 30px 10px 32px 10px;
         padding-top: 40px;
         padding-bottom: 32px;
+        font-size: 150%;
+    }
+
+    .general-page-layout {
+        font-size: 130%;
     }
 
     /* home page */
@@ -341,20 +345,15 @@ footer {
         background: transparent;
     }
 
-    /* snippit texts */
-    #conducting-snippit,
-    #teaching-snippit,
-    #musician-snippit {
-        margin-top: 40px;
-        margin-left: 10%;
-        margin-right: 10%;
-        column-gap: 10px;
-    }
-
     /* Conducting page */
     #orchestra-list {
         margin-left: 15%;
         margin-right: 15%;
+        font-size: 130%;
+    }
+
+    #orchestra-list>table {
+        width: 100%;
     }
 
     /* Teaching page */

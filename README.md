@@ -13,6 +13,15 @@ This is a website created for Bert Ridder Music Service, providing background on
 - Fix: Thank you page styling to match the contact page and allow for new requests
 
 
+Sheryl Suggestions:
+- add icon's on the wide/large pages
+- add social media links in the footer
+- dummy phone number in the contact details
+- Add more content/text
+- in readme: make sure to highlight that I first aimed at mobile and added media queries for larger screens to give the pages more depth
+- bug: not working pictures, add the ./ for assests
+
+
 PRE-README Intro
 
 External user’s goal:
@@ -60,6 +69,7 @@ e.g. Features of the LOVE RUNNING project
 - Footer
 - Gallery
 - Signup page
+--> tying the features to the user stories (e.g. get in touch button)
 
 Also add potential future features that would be relevant or are still to be implemented.
 
@@ -79,6 +89,7 @@ Bugs that are still occuring, what have I done, do I know of a solution?
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+--> Copy paste boiler plate from links provided by Sheryl.
 
 ## Credits
 
