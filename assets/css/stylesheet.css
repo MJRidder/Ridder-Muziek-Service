@@ -32,10 +32,6 @@ header a {
 main {
     background-color: wheat;
     margin-top: 47px;
-    /*
-    padding-left: 1rem;
-    padding-right: 1rem;
-    */
     /* making sure that the main element takes most of the space */
     flex: 1 0 auto;
 }
@@ -71,7 +67,6 @@ h1 {
 nav {
     width: 100%;
     top: 100%;
-    left: 0;
     padding: 0 2px;
     position: absolute;
     background: #ffffff;
@@ -117,7 +112,6 @@ nav>ul {
 }
 
 .header-cover-text {
-    /* positioning of the text over the hero picture remains a challenge $$ needs to be reviewed */
     display: flex;
     position: relative;
     color: #ffffff;
@@ -129,25 +123,42 @@ nav>ul {
     align-items: center;
 }
 
+.contact-header-cover-text {
+    display: flex;
+    position: relative;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .chapter-left {
     flex-direction: row;
-    background: #a0a2a0;
-    color: #fafafa;
+    background: wheat;
+    color: #282828;
     padding: 1rem 2rem;
     border-bottom: 2px #282828 dotted;
     border-top: 2px #282828 dotted;
+    box-shadow: #3a3a3a;
 }
 
 .chapter-right {
     flex-direction: row-reverse;
-    background: #d51cff;
-    color: #fafafa;
+    background: wheat;
+    color: #282828;
     padding: 1rem 2rem;
     border-bottom: 2px #282828 dotted;
     border-top: 2px #282828 dotted;
+    box-shadow: #3a3a3a;
 }
 
-
+.general-chapter {
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 /* Home page - mobile */
 #hero-choice {
@@ -197,13 +208,13 @@ nav>ul {
 
 /* snippit texts - mobile */
 .homepage-snippit {
-    padding: 0 5px;
+    padding: 20px 5%;
     margin-top: 20px;
     text-align: left;
 }
 
-.general-chapter {
-    padding-top: 15px;
+.general-chapter > h3 {
+    padding-bottom: 2px;
 }
 
 /* Conducting page - mobile */
@@ -213,6 +224,10 @@ nav>ul {
     width: 100%;
     background: url("../images/Bert-Ridder-Conducting-cropped-conducting-page.png") center no-repeat;
     background-size: cover;
+}
+
+#interim-orchestras>li {
+    margin-left: 15px;
 }
 
 .orchestra-logo {
