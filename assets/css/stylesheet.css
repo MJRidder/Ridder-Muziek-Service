@@ -224,7 +224,7 @@ section div>.general-page-layout {
     position: relative;
     max-height: 250px;
     width: 100%;
-    background: url(/assets/images/Bert-Ridder-study-cropped-teaching-page.png) center no-repeat;
+    background: url(/assets/images/Bert-Ridder-teaching-trombone-at-Muziekschool-Boedijn-cropped-teaching-page.png) center no-repeat;
 }
 
 /* Musician page */
@@ -232,7 +232,7 @@ section div>.general-page-layout {
     position: relative;
     max-height: 250px;
     width: 100%;
-    background: url(/assets/images/Ridder-muziek-service-logo.png) center no-repeat;
+    background: url(/assets/images/Bert-Ridder-study-cropped-musician-page.png) center no-repeat;
 }
 
 /* Contact page */
@@ -251,7 +251,7 @@ section div>.general-page-layout {
     width: 330px;
     border: 2px solid #3a3a3a;
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
     padding: 20px 10% 0 10%;
 }
 
@@ -327,10 +327,12 @@ footer {
 
     /* snippit texts */
     #conducting-snippit,
-    #teaching-snippit, #musician-snippit {
+    #teaching-snippit,
+    #musician-snippit {
         margin-top: 40px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        column-gap: 10px;
     }
 
     /* Conducting page */
@@ -378,4 +380,9 @@ footer {
         height: 100%;
         align-items: center;
     }
+
+    table, th, td {
+        padding: 0 10px;
+    }
+
 }

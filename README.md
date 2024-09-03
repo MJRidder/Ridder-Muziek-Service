@@ -5,6 +5,9 @@ This is a website created for Bert Ridder Music Service, providing background on
 - Fix nav. bar for tablet and desktop, centralise on the line
     + by accident had added a # in the HTML "id" attribute of the .nav bar. Which caused for issues when I tried to fix it in CSS
 - Fix hero images and overlaying text - make them compatible on multiple screen sizes
+- Fix hero images on mobile (when opening on my own phone they don't show)
+- Fix contact form - one size for each screen size, only background should change to fill the screen
+- Background of all pages but contact page: find simple pattern? Find stock pictures? single color?
 
 
 PRE-README Intro
@@ -86,3 +89,4 @@ Sources
 Tool to convert image webp to jpg (https://ezgif.com/webp-to-jpg)
 Tool to convert image avif to jpg (https://cloudconvert.com/avif-to-jpg)
 HTML & CSS funcionality info (https://www.w3schools.com/)
+Resizing PNG files (https://onlinepngtools.com/resize-png)
