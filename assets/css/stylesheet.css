@@ -126,8 +126,7 @@ nav>ul {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 32px;
+    padding: 30px 10px 32px 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -189,9 +188,10 @@ nav>ul {
 /* Conducting page */
 #conducting-hero {
     position: relative;
-    max-height: 250px;
+    max-height: 200px;
     width: 100%;
     background: url(/assets/images/Bert-Ridder-Conducting-cropped-conducting-page.png ) center no-repeat;
+    background-size: cover;
 }
 
 .general-page-layout {
@@ -222,17 +222,19 @@ section div>.general-page-layout {
 /* Teaching page */
 #teaching-hero {
     position: relative;
-    max-height: 250px;
+    max-height: 200px;
     width: 100%;
     background: url(/assets/images/Bert-Ridder-teaching-trombone-at-Muziekschool-Boedijn-cropped-teaching-page.png) center no-repeat;
+    background-size: cover;
 }
 
 /* Musician page */
 #musician-hero {
     position: relative;
-    max-height: 250px;
+    max-height: 200px;
     width: 100%;
     background: url(/assets/images/Bert-Ridder-study-cropped-musician-page.png) center no-repeat;
+    background-size: cover;
 }
 
 /* Contact page */
@@ -271,6 +273,19 @@ section div>.general-page-layout {
     margin-bottom: 20px;
 }
 
+/* Contact Thank you page */
+
+.thank-you {
+    margin-top: 20px;
+    position: relative;
+    width: 330px;
+    border: 2px solid #3a3a3a;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.9);
+    padding: 20px 10% 0 10%;
+    justify-content: space-between;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -302,9 +317,10 @@ footer {
     }
 
     .header-cover-text {
-        margin-left: 15%;
-        margin-right: 15%;
-        text-align: center;
+        width: 100%;
+        padding: 30px 10px 32px 10px;
+        padding-top: 40px;
+        padding-bottom: 32px;
     }
 
     /* home page */
@@ -377,11 +393,12 @@ footer {
     }
 
     #contact {
-        height: 100%;
-        align-items: center;
+        height: 85%;
     }
 
-    table, th, td {
+    table,
+    th,
+    td {
         padding: 0 10px;
     }
 

@@ -8,6 +8,9 @@ This is a website created for Bert Ridder Music Service, providing background on
 - Fix hero images on mobile (when opening on my own phone they don't show)
 - Fix contact form - one size for each screen size, only background should change to fill the screen
 - Background of all pages but contact page: find simple pattern? Find stock pictures? single color?
+- Add video's to teaching page
+- Footer: no social media pages - what would be relevant?
+- Fix: Thank you page styling to match the contact page and allow for new requests
 
 
 PRE-README Intro
