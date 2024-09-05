@@ -256,6 +256,7 @@ nav>ul {
 
 th {
     font-weight: normal;
+    text-align: none;
 }
 
 .snippit-header {
