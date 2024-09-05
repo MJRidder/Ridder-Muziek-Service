@@ -1,57 +1,20 @@
-# Bert-Ridder-muziek-service
-This is a website created for Bert Ridder Music Service, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
-
-# Open questions/to do's:
-- Fix nav. bar for tablet and desktop, centralise on the line
-    + by accident had added a # in the HTML "id" attribute of the .nav bar. Which caused for issues when I tried to fix it in CSS
-- Fix hero images and overlaying text - make them compatible on multiple screen sizes
-- Fix hero images on mobile (when opening on my own phone they don't show)
-- Fix contact form - one size for each screen size, only background should change to fill the screen
-- Background of all pages but contact page: find simple pattern? Find stock pictures? single color?
-- Add video's to teaching page
-- Footer: no social media pages - what would be relevant?
-- Fix: Thank you page styling to match the contact page and allow for new requests
-
-
-Sheryl Suggestions:
-- add icon's on the wide/large pages
-- add social media links in the footer
-- dummy phone number in the contact details
-- Add more content/text
-- in readme: make sure to highlight that I first aimed at mobile and added media queries for larger screens to give the pages more depth
-- bug: not working pictures, add the ./ for assests
-
-
-PRE-README Intro
-
-External user’s goal:
-=
-
-Site owner's goal:
-=
-
-Potential features to include:
-=
-
-Learning Outcomes
-
-[Link to Assessment Criteria](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGP+2021_Q2/courseware/411aa0a8f55c494d888767d695db24e4/b9aa183580bc405790f1935906b5daa5/)
-
-* LO1	Design an interactive Front-End web application using HTML and CSS based on the principles of user experience design, accessibility and responsivity
-* LO2	Test a Front-End web application through the development, implementation and deployment stages
-* LO3	Deploy a Front-End web application to a Cloud platform
-* LO4	Maximise future maintainability through documentation, code structure and organisation
-* L05	Demonstrate and document the development process through a version control system such as GitHub
-
-============================
-Below the offical Readme (remove this and the above when ready to submit)
-============================
-
 # Ridder Muziek Service - about the page
 
 Welcome to Ridder Muziek Service! This is the website for Bert Ridder, a conductor 'slash' music teacher 'slash' musician with over 40 years experience in each. Bert is retired officially but as every "old dog of the business" he does not know how to fully quit. Which is why he'd like to be available for incidental projects in conducing, teaching incidental music students or be part of a musical project himself as a musician. 
 
-The goal of this website is to briefly provide context but quickly guide the visitor to reaching out to Bert. Every aspect of the website is set up to guide the user to the contact page. 
+The goal of this website is to briefly provide context but quickly guide the visitor to reaching out to Bert. Every aspect of the website is set up to guide the user to the contact page. Summarized:
+
+## Business goals
+- Get to work on new interesting projects (interim/stand-in conducting)
+- Get new students
+- Easy to use website with easy contact possibilities (1-2 clicks)
+- High focus on mobile functionality due to 'ad-hoc' nature of requests
+- (bonus) get work as a (stand-in) musicain
+- Become visible online
+
+## Client goals
+- Quickly/Easily get in contact with a professional conductor to cover/stand-in for existing conductor or for temporary projects
+- Find a brass instrument music teacher in the province of North-Holland
 
 # UX experience
 I have tried to keep the user in mind when setting up the pages. Keeping information short and relevant and easily accessable from different platforms. Each page has a quick link (call to action) to "Get in touch" and discuss availability. The website has a simple/clear set up with the aim not to confuse the visitor.
@@ -247,3 +210,53 @@ Special shout out to my mentor [Sheryl Goldberg](https://github.com/sherylg343) 
 | [Ijmuider harmonie](https://www.ijmuiderharmonie.nl/) | Conducting | Bert experience |
 | Bert Ridder Personal images | Across website | Headers |
 | Bert Ridder interview | Across website | Bert experience |
+
+============================
+
+Below the offical Readme (remove this and the above when ready to submit)
+============================
+
+# Bert-Ridder-muziek-service
+This is a website created for Bert Ridder Music Service, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
+
+# Open questions/to do's:
+- Fix nav. bar for tablet and desktop, centralise on the line
+    + by accident had added a # in the HTML "id" attribute of the .nav bar. Which caused for issues when I tried to fix it in CSS
+- Fix hero images and overlaying text - make them compatible on multiple screen sizes
+- Fix hero images on mobile (when opening on my own phone they don't show)
+- Fix contact form - one size for each screen size, only background should change to fill the screen
+- Background of all pages but contact page: find simple pattern? Find stock pictures? single color?
+- Add video's to teaching page
+- Footer: no social media pages - what would be relevant?
+- Fix: Thank you page styling to match the contact page and allow for new requests
+
+
+Sheryl Suggestions:
+- add icon's on the wide/large pages
+- add social media links in the footer
+- dummy phone number in the contact details
+- Add more content/text
+- in readme: make sure to highlight that I first aimed at mobile and added media queries for larger screens to give the pages more depth
+- bug: not working pictures, add the ./ for assests
+
+
+PRE-README Intro
+
+External user’s goal:
+=
+
+Site owner's goal:
+=
+
+Potential features to include:
+=
+
+Learning Outcomes
+
+[Link to Assessment Criteria](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGP+2021_Q2/courseware/411aa0a8f55c494d888767d695db24e4/b9aa183580bc405790f1935906b5daa5/)
+
+* LO1	Design an interactive Front-End web application using HTML and CSS based on the principles of user experience design, accessibility and responsivity
+* LO2	Test a Front-End web application through the development, implementation and deployment stages
+* LO3	Deploy a Front-End web application to a Cloud platform
+* LO4	Maximise future maintainability through documentation, code structure and organisation
+* L05	Demonstrate and document the development process through a version control system such as GitHub

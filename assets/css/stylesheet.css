@@ -50,7 +50,6 @@ h1 {
     letter-spacing: 1px;
     color: #282828;
     font-size: 100%;
-    /* to fit the mobile screen $$ NEEDS UPDATING */
 }
 
 
@@ -213,7 +212,7 @@ nav>ul {
     text-align: left;
 }
 
-.general-chapter > h3 {
+.general-chapter>h3 {
     padding-bottom: 2px;
 }
 
@@ -246,7 +245,7 @@ nav>ul {
     text-decoration: none;
 }
 
-.conducting-page { 
+.conducting-page {
     padding-bottom: 15px;
 }
 
@@ -284,6 +283,7 @@ nav>ul {
     font-weight: bold;
     font-size: 120%;
 }
+
 #contact {
     position: relative;
     width: 100%;
@@ -382,6 +382,19 @@ footer {
         font-size: 130%;
     }
 
+    .link-to-contact-form {
+        display: flex;
+        position: relative;
+        font-size: 150%;
+        justify-content: center;
+        text-align: center;
+        background-color: #282828;
+        margin: 20px 25% 20px 25%;
+        box-shadow: 0 2px 2px #282828;
+        border-radius: 12px;
+        padding-top: 10px;
+    }
+
     /* home page - tablet and up*/
 
     /* hero images - tablet and up */
@@ -415,7 +428,8 @@ footer {
     }
 
     /* Teaching page - tablet and up */
-    .general-page-layout, .homepage-snippit {
+    .general-page-layout,
+    .homepage-snippit {
         padding-left: 15%;
         padding-right: 15%;
     }
@@ -423,7 +437,6 @@ footer {
     /* Contact page - tablet and up */
 
     #contact-background-image {
-        display: flex;
         background: url("../images/Music-stock-background.jpg") no-repeat center center/cover;
         background-size: cover;
         background-position: 75%;
@@ -437,10 +450,31 @@ footer {
         padding-left: 30px;
         padding-bottom: 20px;
         margin-left: 10%;
+        margin-top: 5%;
         justify-content: center;
         border: 2px solid #3a3a3a;
+        border-radius: 25px;
     }
 
+    .thank-you {
+        position: absolute;
+        width: 330px;
+        border: 2px dotted #3a3a3a;
+        border-radius: 25px;
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.9);
+        padding: 20px 15%;
+        margin: 5px auto;
+
+    }
+
+    .contact-header-cover-text {
+        font-size: 130%;
+    }
+
+    #thank-you-buttons {
+        margin-top: 5rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -449,21 +483,63 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #contact-background-image {
-        display: flex;
-        background: url("../images/Music-stock-background.jpg") no-repeat center center/cover;
-        background-size: cover;
-        background-position: 75%;
+    .header-cover-text {
+        font-size: 200%;
     }
 
+    #conducting-hero,
+    #teaching-hero,
+    #musician-hero,
+    #contact-hero {
+        max-height: 250px;
+    }
+
+    #hero-1,
+    #hero-2 {
+        font-size: 150%;
+    }
+
+    .link-to-contact-form {
+        display: flex;
+        position: relative;
+        font-size: 200%;
+        justify-content: center;
+        text-align: center;
+        background-color: #282828;
+        margin: 20px 25% 20px 25%;
+        box-shadow: 0 2px 2px #282828;
+        border-radius: 12px;
+        padding-top: 10px;
+    }
+
+
     #contact {
-        height: 85%;
+        position: relative;
+        width: 90%;
+        max-width: 600px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-top: 50px;
+        justify-content: center;
+        font-size: 150%;
+        border: 2px solid #3a3a3a;
+        border-radius: 25px;
     }
 
     table,
     th,
     td {
         padding: 0 10px;
+    }
+
+    .contact-header-cover-text {
+        font-size: 150%;
+    }
+
+    #thank-you-buttons {
+        margin-top: 5rem;
     }
 
 }
