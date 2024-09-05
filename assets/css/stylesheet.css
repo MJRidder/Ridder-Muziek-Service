@@ -159,6 +159,10 @@ nav>ul {
     padding-right: 5%;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Home page - mobile */
 #hero-choice {
     display: flex;
