@@ -111,15 +111,25 @@ Similar to the importance of being able to contact Bert for his availability, it
 ### Google maps iframe on contact page
 ### Layout optimizations
 ### including a third "call to action" button on homepage for "musician"
+### Improved imaging - larger media sizes for hero images
 
 # Testing
 Testing of the various pages has been an ongoing process. Ensuring that mobile comes first has the benefit that overall the pages are tailored for it and will indeed look most streamlined on mobile. It has however ensured that in some cases the page look different on larger screens.
 
 ## HTML validator test
-include screenshot
+Rand HTML validator tools and no issues were found. Ran the tool on URL and via direct input. Used the URL version for the screenshots below to be able to indicate the green "go ahead" sign with the validated URL.
+
+![HTML-validator-1-index](./assets/images/Readme%20screenshots/HTML-validator-1-index.png "HTML-validator-1-index")
+![HTML-validator-2-conducting](./assets/images/Readme%20screenshots/HTML-validator-2-conducting.png "HTML-validator-2-conducting")
+![HTML-validator-3-teaching](./assets/images/Readme%20screenshots/HTML-validator-3-teaching.png "HTML-validator-3-teaching")
+![HTML-validator-4-musician](./assets/images/Readme%20screenshots/HTML-validator-4-musician.png "HTML-validator-4-musician")
+![HTML-validator-5-contact](./assets/images/Readme%20screenshots/HTML-validator-5-contact.png "HTML-validator-5-contact")
+![HTML-validator-6-thankyou](./assets/images/Readme%20screenshots/HTML-validator-6-thankyou.png "HTML-validator-6-thankyou")
 
 ## CSS validator test
-include screenshot
+Ran CSS validator test and no issues were found:
+![CSS approved validator](./assets/images/Readme%20screenshots/CSS-validator.png "CSS approved validator")
+
 
 ## (Un)fixed bugs
 ### #id tag in HTML
