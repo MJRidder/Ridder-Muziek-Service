@@ -1,42 +1,45 @@
 # Ridder Muziek Service - about the page
 
-Welcome to Ridder Muziek Service! This is the website for Bert Ridder, a conductor 'slash' music teacher 'slash' musician with over 40 years experience in each. Bert is retired officially but as every "old dog of the business" he does not know how to fully quit. Which is why he'd like to be available for incidental projects in conducing, teaching incidental music students or be part of a musical project himself as a musician. 
+Welcome to Ridder Muziek Service! This is the website for Bert Ridder, a conductor 'slash' music teacher 'slash' musician with (well) over 40 years experience in each. Bert is retired officially but as every "old dog of the business" he does not know how to fully quit. Which is why he likes to be available for incidental projects in conducing, teaching incidental music students or be part of a musical project himself as a musician. Current challenge however is that he has no online presence!
 
-The goal of this website is to briefly provide context but quickly guide the visitor to reaching out to Bert. Every aspect of the website is set up to guide the user to the contact page. Summarized:
+The goal of this website is to get him this precence by briefly providing context to visitors (in need) but where possible quickly guide the visitor to reaching out to Bert via webform, phone or email. Every aspect of the website is set up to guide the user to the contact page.
 
-## Business goals
-- Get to work on new interesting projects (interim/stand-in conducting)
-- Get new students
-- Easy to use website with easy contact possibilities (1-2 clicks)
-- High focus on mobile functionality due to 'ad-hoc' nature of requests
-- (bonus) get work as a (stand-in) musicain
+## Business (his personal) goals
 - Become visible online
+- Get to work on new interesting projects (interim/stand-in conducting)
+- Get new (trombone) students
+- Easy to use website with easy contact possibilities (1-2 clicks to get to contact options)
+- High focus on mobile functionality due to 'ad-hoc' nature of requests
+- (bonus) get work as a (stand-in) musician
 
 ## Client goals
 - Quickly/Easily get in contact with a professional conductor to cover/stand-in for existing conductor or for temporary projects
 - Find a brass instrument music teacher in the province of North-Holland
+- Find an experienced brass instrument player
 
 # UX experience
 I have tried to keep the user in mind when setting up the pages. Keeping information short and relevant and easily accessable from different platforms. Each page has a quick link (call to action) to "Get in touch" and discuss availability. The website has a simple/clear set up with the aim not to confuse the visitor.
 
 # User stories
-In the ideal state the user finds us via Google (or other) search, lands on the home page or even directly on the relevant conductor/teacher/conductor pages. The aim is for them to be able to get to the contact page/details within 1 or two clicks. 
+The ideal state would be for the user to finds the website via Google (or other engines) search, lands on the home page or even directly on the relevant conductor/teacher/conductor pages. The aim is for them to be able to get to the contact page/details within 1 or two clicks. 
 
 The home page provides sufficient but limited information. With two large buttons for the main uses of this website:
 1) Provide a stand-in conductor for an orchestra/ensemble in need.
 2) Provide a music teacher for a student in need.
 
-Users will also see a musician page. This is because Bert has requested to have the page added also for being a musician, however the main desire is to gain projects as a stand-in conductor or a music teacher. Visitors of the website will mostly from "the industry" however, which will make it relevant to know as well that Bert is also an active musician for hire as well. 
+Users will also see a musician page. This is because Bert has requested to have the page added also for being a musician, however Bert's main desire is to gain projects as a stand-in conductor or a music teacher. Visitors of the website will mostly be from "the industry" however, which will make it relevant to know that Bert is also an active musician for hire. 
 
-Each page provides three elements to the visitor:
+Each page provides three elements to the visitor (with the aim to get to the relevant information quickly):
 1) How Bert works (how he conducts/teaches and would this fit their needs?)
-2) His experience (providing a strong base for the visitor to base their decision on)
+2) His experience (providing a strong base for the visitor to make a decision)
 3) What his availability is and for what he is available for (Although many different orchestras/ensembles/students can be helped, it is important not to give false hope to the visitor in case Bert his experience does not match their needs)
 
 # Mobile users
-The website was created with "mobile first" mindset. Creating all pages from a 'Samsung Galaxy 8' or 'Samsung Galaxy S20 Ultra' basis, before reviewing the websites funcitionality for tables/desktops. With this in mind the formatting has been kept simple, easy to view but sufficient. 
+The website was created with a "mobile first" mindset. Creating all pages from a 'Samsung Galaxy 8' or 'Samsung Galaxy S20 Ultra' basis, before reviewing the websites funcitionality for tables/desktops. With this in mind the formatting has been kept simple, easy to view but sufficient. 
 
-Reasoning for this is simple: Mobile usage in much higher then desktop usage. Avg. page visits per session is less relevant here as the the aim of the website is to get the visitor to a state of 'contact' as soon as possible. Whether if this is via the contact form, phone or email. The below "Get in Touch" button is clear and can be found at the top of every page.
+Reasoning for this is simple: Mobile usage in much higher then desktop usage. Avg. page visits per session is less relevant here as the the aim of the website is to get the visitor to a state of 'contact' as soon as possible. Whether if this is via the contact form, phone or email. Due to the potential "ad hoc" and quick need of Bert his support, it is expected that much of the finding of the website will be done from a mobile device (e.g. I just had a call that our conductor is sick, let me find a stand-in conductor quickly)
+
+The below "Get in Touch" button is clear and can be found at the top of every page.
 
 ![Step 1 - visitor lands on homepage](./assets/images/Readme%20screenshots/Mobile-user-step-1-min.png "Step 1 - visitor lands on homepage")
 ![Step 2 - has a direct link (single click) to contact details/page](./assets/images/Readme%20screenshots/Mobile-user-step-2-min.png "Step 2 - has a direct link (single click) to contact details/page")
@@ -66,7 +69,7 @@ Desktop (see the 'hover' underline)<br>
 ![NAV bar desktop](./assets/images/Readme%20screenshots/NAV-bar-desktop.png "NAV bar desktop")
 
 ## Hero image/buttons index page
-The main objects that are visible on the homepage are the two buttons referencing the Teacher and Conductor focus of the website. Easy and quick access allowing for fast movement through the website (and a quick call to action)
+The main objects that are visible on the homepage are the two buttons referencing the Teacher and Conductor focus of the website. Easy and quick access allowing for fast movement through the website (and a quick call to action). Added for the larger devices is the "hover" option, giving the button a lighter shade when hovering over it.
 
 Homepage "two button" call to action<br>
 ![Two button call to action](./assets/images/Readme%20screenshots/Mobile-user-step-1-min-cropped.png "Two button call to action")
@@ -86,7 +89,7 @@ Quick information headers<br>
 ## similar/easy page layout
 Each page currently also containts a simple layout with text separated by dotted lines. Multiple other layouts have been trialled (and might still be used at a later stage) but it often drew the attention away from the main hero image and/or the "get in touch" button. Therefore the current chosen layout is simple and brief. 
 
-## Conducting page link to orchestras for reference
+## Conducting page links to orchestras for reference
 With 35 to 43 years of experience conducting three orchestras across the province of North-Holland, it is important to link their original pages. Even though Bert is no longer actively involved with these orchestras due to his retirements, you can still find audio/video material and articles on these pages that can be reviewed for reference.
 
 ## Footer links to socials
@@ -107,18 +110,35 @@ Similar to the importance of being able to contact Bert for his availability, it
 ## Future features
 
 ### Audio / video page (summary page)
+A single page referencing a variety of audio/video files that can be listened to. Indicating Bert's way of working and experience (sound).
+
 ### Including audio/video on content pages - referencing Bert's work
+Apart from a separate page, including audio/video files in the standard content can enrich the experience of the visitor.
+
 ### Google maps iframe on contact page
+Currently there is no Google maps added to the page, however especially relevant for when one is looking for teaching locations, this will be beneficial.
+
 ### Layout optimizations
+Although the layout will remain basic to improve usibility, potentially cards can be added to give the pages a little more 'spark'.
+
 ### including a third "call to action" button on homepage for "musician"
+In case Bert does want to lay more of an emphasis on getting musician work, a third button can be added on the homepage. The structure of the pages/buttons will have to be reviewed in that case. To avoid clutter.
+
 ### Improved imaging - larger media sizes for hero images
+Imaging can get a little grainy on larger screens, using larger hero images will improve this.
+
 ### Unique styling per page (conductor/teaching/musician-page classes already added)
+To make the pages "pop" a little more, each page could get it's own identity.
 
 # Testing
 Testing of the various pages has been an ongoing process. Ensuring that mobile comes first has the benefit that overall the pages are tailored for it and will indeed look most streamlined on mobile. It has however ensured that in some cases the page look different on larger screens.
 
+Testing has been performed on actual laptops and phone screens (Macbook pro & Samsung Galaxy S23).
+
+![Am I responsive?](./assets/images/Readme%20screenshots/Am-I-Responsive.png "Am I responsive?")
+
 ## HTML validator test
-Rand HTML validator tools and no issues were found. Ran the tool on URL and via direct input. Used the URL version for the screenshots below to be able to indicate the green "go ahead" sign with the validated URL.
+Ran HTML validator tools and no issues were found. Ran the tool on URL and via direct input. Used the URL version for the screenshots below to be able to indicate the green "go ahead" sign with the validated URL.
 
 ![HTML-validator-1-index](./assets/images/Readme%20screenshots/HTML-validator-1-index.png "HTML-validator-1-index")
 ![HTML-validator-2-conducting](./assets/images/Readme%20screenshots/HTML-validator-2-conducting.png "HTML-validator-2-conducting")
@@ -134,12 +154,17 @@ Ran CSS validator test and no issues were found:
 
 ## (Un)fixed bugs
 ### #id tag in HTML
-For quite some time I could not get the NAV bar work correctly. Whether it was the overall formatting, not being able to get the "burger icon" to contain all the #menu items or to have the menu spread out over the NAV bar on larger screens. It took me a few days to finally realise that I unfortunately made a mistake in my HTML ID element. Adding "< ul #id="menu" >" instead of adding "< ul id="menu" >" without the hashtag. Clearly unconsciously thinking still in the CSS formatting when writing my HTML coding.
+For quite some time I could not get the NAV bar to work correctly. Whether it was the overall formatting; not being able to get the "burger icon" to contain all the #menu items; or to have the menu spread out over the NAV bar on larger screens. It took me a few days to finally realise that I unfortunately made a mistake in my HTML ID element. Adding "< ul #id="menu" >" instead of adding "< ul id="menu" >" without the hashtag. Clearly unconsciously thinking still in the CSS formatting when writing my HTML coding.
 
 ### Main two call to action buttons (homepage - teaching/conducting buttons)
 As the two main items of this website is linking visitors looking for a music teacher or a stand-in conductor with Bert Ridder, it was important to have something interactive that drew the eye the moment when entering the website. These were the call to action buttons on the homepage. Initially however I was unable to make the full button clickable, ending up with a clickable cover text on a picture, rather then a full picture being clickable.
 
 I requested support from the Tutor function at Code institute to help me review the issue. There it appeared that I had my "< a >" element included in the "< div >" rather then the other way around (having the "< a >" element parent the "< div >"). By switching these I managed make the buttons fully clickable.
+
+### hero-imaging not aligning with overlaying text/header
+For quite some time the hero images and the overlaying text/headers, did not align. I made many changes on the hero page tags (conducting-hero, teaching-hero, musician-hero), but I was often a little off (the transparent darkening of the overlaying text background, would go outside of the hero imago, or not fully cover it). I did Google searches for it and worked with ChatGPT to try to find an answer.
+
+Unfortunately neither could help me. What I found to be the issue in the end? In my excitement I added an extra "class" to the hero images. With the best intentions at the start, but with little useful impact in the end. As CSS was applied to it, it kept messing with other CSS rulings I put in. After removing the uneccessary "class-tag" the hero-image and the header-text matched up again.
 
 ## Deployment
 
@@ -210,7 +235,7 @@ There are no differences between my local and deployed site currently.
 | [Weiss Gitar](https://weissguitar.com/jointoday) | Across website | website inspiration |
 | [Keith O'Connell](https://www.keithoconnell.com/) | Across website | website inspiration |
 
-Special shout out to my mentor [Sheryl Goldberg](https://github.com/sherylg343) for supporting me in several sessions leading up to the completion of my P1 Portfolio project. 
+Special shout out to my mentor [Sheryl Goldberg](https://github.com/sherylg343) for supporting me in several sessions leading up to the completion of my P1 Portfolio project. I have learned a lot.
 
 ## Content/Media Used
 
@@ -221,53 +246,3 @@ Special shout out to my mentor [Sheryl Goldberg](https://github.com/sherylg343) 
 | [Ijmuider harmonie](https://www.ijmuiderharmonie.nl/) | Conducting | Bert experience |
 | Bert Ridder Personal images | Across website | Headers |
 | Bert Ridder interview | Across website | Bert experience |
-
-============================
-
-Below the offical Readme (remove this and the above when ready to submit)
-============================
-
-# Bert-Ridder-muziek-service
-This is a website created for Bert Ridder Music Service, providing background on his career and the services he provides teaching musical instruments and stand-in conducting.
-
-# Open questions/to do's:
-- Fix nav. bar for tablet and desktop, centralise on the line
-    + by accident had added a # in the HTML "id" attribute of the .nav bar. Which caused for issues when I tried to fix it in CSS
-- Fix hero images and overlaying text - make them compatible on multiple screen sizes
-- Fix hero images on mobile (when opening on my own phone they don't show)
-- Fix contact form - one size for each screen size, only background should change to fill the screen
-- Background of all pages but contact page: find simple pattern? Find stock pictures? single color?
-- Add video's to teaching page
-- Footer: no social media pages - what would be relevant?
-- Fix: Thank you page styling to match the contact page and allow for new requests
-
-
-Sheryl Suggestions:
-- add icon's on the wide/large pages
-- add social media links in the footer
-- dummy phone number in the contact details
-- Add more content/text
-- in readme: make sure to highlight that I first aimed at mobile and added media queries for larger screens to give the pages more depth
-- bug: not working pictures, add the ./ for assests
-
-
-PRE-README Intro
-
-External user’s goal:
-=
-
-Site owner's goal:
-=
-
-Potential features to include:
-=
-
-Learning Outcomes
-
-[Link to Assessment Criteria](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGP+2021_Q2/courseware/411aa0a8f55c494d888767d695db24e4/b9aa183580bc405790f1935906b5daa5/)
-
-* LO1	Design an interactive Front-End web application using HTML and CSS based on the principles of user experience design, accessibility and responsivity
-* LO2	Test a Front-End web application through the development, implementation and deployment stages
-* LO3	Deploy a Front-End web application to a Cloud platform
-* LO4	Maximise future maintainability through documentation, code structure and organisation
-* L05	Demonstrate and document the development process through a version control system such as GitHub
