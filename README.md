@@ -112,6 +112,7 @@ Similar to the importance of being able to contact Bert for his availability, it
 ### Layout optimizations
 ### including a third "call to action" button on homepage for "musician"
 ### Improved imaging - larger media sizes for hero images
+### Unique styling per page (conductor/teaching/musician-page classes already added)
 
 # Testing
 Testing of the various pages has been an ongoing process. Ensuring that mobile comes first has the benefit that overall the pages are tailored for it and will indeed look most streamlined on mobile. It has however ensured that in some cases the page look different on larger screens.
